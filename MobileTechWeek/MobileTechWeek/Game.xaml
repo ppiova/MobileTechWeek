@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileTechWeek.Game">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Frame BackgroundColor="Azure" Margin="0,20,0,20">
+                    <Image Source="Logo.png"></Image>
+                </Frame>
+
+                <Label Text="Computador Eligió:" HorizontalOptions="Center" FontSize="Medium"></Label>
+                <Label x:Name="LabelComputadorEligio" HorizontalOptions="Center" FontSize="Medium"></Label>
+
+                <Button Text="Piedra" Clicked="Button_OnClicked" ></Button>
+                <Button Text="Papel" Clicked="Button_OnClicked"></Button>
+                <Button Text="Tijera" Clicked="Button_OnClicked" ></Button>
+
+                <Label Text="Mis Puntos:" HorizontalOptions="Center"></Label>
+                <Label x:Name="LabelMisPuntos" Text="0" HorizontalOptions="Center" ></Label>
+                <Label Text="Puntos Computador:" HorizontalOptions="Center"></Label>
+                <Label x:Name="LabelPutosComputador" Text="0" HorizontalOptions="Center"></Label>
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
