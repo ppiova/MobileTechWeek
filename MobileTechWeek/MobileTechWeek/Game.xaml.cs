@@ -43,7 +43,7 @@ namespace MobileTechWeek
                 else if (eleccionComputador == 3)
                 {
                     DisplayAlert("Resultado", "Ganaste", "OK");
-                    LabelMisPuntos.Text = (Convert.ToInt16((LabelMisPuntos.Text) + 1)).ToString();
+                    LabelMisPuntos.Text = (Convert.ToInt16(LabelMisPuntos.Text) + 1).ToString();
                 }
                 else
                 {
@@ -62,7 +62,7 @@ namespace MobileTechWeek
                 else if (eleccionComputador == 1)
                 {
                     DisplayAlert("Resultado", "Ganaste", "OK");
-                    LabelMisPuntos.Text = (Convert.ToInt16((LabelMisPuntos.Text) + 1)).ToString();
+                    LabelMisPuntos.Text = (Convert.ToInt16(LabelMisPuntos.Text) + 1).ToString();
                 }
                 else
                 {
@@ -80,7 +80,7 @@ namespace MobileTechWeek
                 else if (eleccionComputador == 2)
                 {
                     DisplayAlert("Resultado", "Ganaste", "OK");
-                    LabelMisPuntos.Text = (Convert.ToInt16((LabelMisPuntos.Text) + 1)).ToString();
+                    LabelMisPuntos.Text = (Convert.ToInt16(LabelMisPuntos.Text) + 1).ToString();
                 }
                 else
                 {
