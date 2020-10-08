@@ -10,7 +10,7 @@ namespace MobileTechWeek
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Game();
         }
 
         protected override void OnStart()
